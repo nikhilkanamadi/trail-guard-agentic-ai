@@ -1,0 +1,42 @@
+# ── Node / Next.js ───────────────────────────────────────────────────────────
+node_modules/
+.next/
+out/
+.vercel/
+
+# ── Python / FastAPI ─────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── Environment secrets ──────────────────────────────────────────────────────
+.env
+.env.local
+.env.production
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ── Database / Vector store ──────────────────────────────────────────────────
+*.db
+*.sqlite
+data/faiss_index/
+
+# ── Docker ───────────────────────────────────────────────────────────────────
+*.log
+
+# ── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.claude/
